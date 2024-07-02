@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE LaunchPad Kerala 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #fff; /* White text */
+            background-color: #000; /* Black background */
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ffa500; /* Orange headings */
+        }
+        .call-to-action {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ffa500; /* Lighter orange button */
+            color: #fff; /* White text */
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-align: center; /* Center align button */
+            margin-top: 10px; /* Add margin for spacing */
+            font-weight: bold; /* Bold text */
+        }
+        .btn:hover {
+            background-color: #fbbd00; /* Slightly darker orange on hover */
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #ffa500; /* Orange footer text */
+        }
+        section ol {
+            list-style-type: none; /* Remove default list style */
+            padding-left: 0; /* Remove default padding */
+        }
+        section ol li {
+            margin-bottom: 10px; /* Add margin between list items */
+        }
+        section ol li:before {
+            content: attr(data-bolded-text); /* Use content attribute for bolded text */
+            font-weight: bold; /* Bold starting words */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IEEE LaunchPad Kerala 2024</h1>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>IEEE LaunchPad Kerala 2024, a collaborative effort between IEEE Kerala Section and GTech MuLearn, stands as a premier job fair aimed at fostering opportunities for engineering students and graduates across Kerala. This distinguished event connects talented individuals with innovative companies in the technical and engineering domains, creating a platform for meaningful career advancements and industry collaborations.</p>
+    </section>
+
+    <section>
+        <h2>Call to Action</h2>
+        <p class="call-to-action">Join us in shaping the future of Kerala's job market! Whether you're a student eager to explore diverse career paths or a company seeking top-tier talent, IEEE LaunchPad Kerala 2024 offers unparalleled opportunities for growth and success. Participate in assessments, network with industry professionals, and seize the chance to contribute to Kerala's technological landscape.</p>
+        <div style="text-align: center;">
+            <a href="https://launchpadkerala.org/registration" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>Latest Updates</h2>
+        <ul>
+            <li>Expansion of Partner Network: Strengthened collaborations with leading companies to broaden career opportunities for participants.</li>
+            <li>Enhanced Assessment Process: Introduction of new assessment methodologies to ensure thorough evaluation of technical and non-technical skills.</li>
+            <li>Increased Participant Engagement: Higher turnout and engagement from students and companies alike, reflecting growing interest and impact.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Event Roadmap</h2>
+        <ol>
+            <li data-bolded-text="Participant Registration">Students and graduates register to showcase their skills and expertise.</li>
+            <li data-bolded-text="Phase 1 (21-Day Technical Challenge): ">Participants engage in a rigorous technical challenge designed to assess their problem-solving abilities and technical prowess.</li>
+            <li data-bolded-text="Phase 2 (Online Test): ">Qualified participants proceed to an online test evaluating both technical and non-technical skills, ensuring comprehensive evaluation for further stages.</li>
+            <li data-bolded-text="Phase 3 (Interview Test) :">Shortlisted candidates have the opportunity to choose interview locations in Trivandrum, Kochi, or Kozhikode, culminating in face-to-face interviews with prospective employers.</li>
+            <li data-bolded-text="Consolidated Rank List: ">Compilation of rankings based on performance in assessments, guiding companies in selecting top-tier candidates.</li>
+            <li data-bolded-text="Option Selection: ">Selected candidates receive notifications and choose interview locations based on their preferences.</li>
+            <li data-bolded-text="Confirmed Mail to Selected Participants: ">Notification to selected candidates for interviews.</li>
+            <li data-bolded-text="Interviews: ">Final round where candidates meet prospective employers for career opportunities.</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IEEE LaunchPad Kerala. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
